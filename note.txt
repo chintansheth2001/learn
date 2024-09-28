@@ -1,0 +1,15 @@
+Check python Ver : python --v
+Check Django ver : python -m django --version
+install django : python -m pip install Django
+Django Create new project : django-admin startproject <Project Name>
+Django Create new app in project : python manage.py startapp <App Name>
+Django Make migration : python manage.py makemigrations
+Django Run migration : python manage.py migrate
+
+Django Create Supper user :  pyton manage.py createsuperuser
+Username: admin
+Email: admin@test.com
+Password : admin1234
+
+Run Django : python manage.py runserver
+
