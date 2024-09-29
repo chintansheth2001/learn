@@ -7,11 +7,11 @@ from pprint import pprint
 def run():
     user = User.objects.first()
     restaurant = Restaurant.objects.first()
-    print(Rating.objects.get_or_create(
+    rating, created = Rating.objects.get_or_create(
         restaurant = restaurant,
         user = user,
         rating = 4
-    ))
+    )
     
 
     pprint(connection.queries) 
