@@ -13,3 +13,5 @@ Password : admin1234
 
 Run Django : python manage.py runserver
 Run django_extensions command : python manage.py runscript <script file name>
+Run to see sql query  this command from django_extensions : python manage.py shell_plus --print-sql
+
