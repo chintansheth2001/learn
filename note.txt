@@ -12,4 +12,4 @@ Email: admin@test.com
 Password : admin1234
 
 Run Django : python manage.py runserver
-
+Run django_extensions command : python manage.py runscript <script file name>
