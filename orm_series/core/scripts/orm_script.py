@@ -6,9 +6,9 @@ from pprint import pprint
 
 def run():
 
-    rating = Rating.objects.first()
-    print(rating.restaurant)  
-   
+    restaurant = Restaurant.objects.first()
+    print(restaurant.rating_set.all())
+
     pprint(connection.queries) 
 
     
